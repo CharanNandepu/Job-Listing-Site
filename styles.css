@@ -1,0 +1,63 @@
+/* public/styles.css */
+body {
+    font-family: Arial, sans-serif;
+    /* padding: 0px; */
+    background-color: lightblue;
+}
+
+#joblistt {
+    align-items: center;
+}
+
+#header {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    background-image: url();
+    background-color: rgb(0, 144, 205);
+    padding: 10px 10px;
+}
+
+#current-date {
+    color: rgb(21, 46, 121);
+    padding-left: 1000px;
+}
+
+#running-time {
+    color: rgb(21, 46, 121);
+    padding-left: 60px;
+}
+
+#job-list {
+    margin: 20px auto;
+    width: 80%;
+    max-width: 800px;
+}
+
+.job {
+    background: #fff;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease; /* Add transition for smooth scaling */
+}
+
+.job:hover {
+    color: rgb(0, 144, 205);
+    transform: scale(1.05); /* Scale up the box on hover */
+}
+
+.job h2 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.job h2 {
+    margin-top: 0;
+}
+
+.job p {
+    margin: 5px 0;
+}
